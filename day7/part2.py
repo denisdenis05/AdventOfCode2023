@@ -63,6 +63,7 @@ class card:
                     self.cards[maximumNumberOfCards] += numberOfJokers
                     self.cards.pop("J")
                 break
+
         pairs = []
         for card in self.cards:
             if self.cards[card] != 0:
